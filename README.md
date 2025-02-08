@@ -26,5 +26,5 @@ Para ejecutar este proyecto en **Visual Studio Community**:
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/tuusuario/nombre-del-repositorio.git
-   cd nombre-del-repositorio
+   git clone https://github.com/FredyGus/Laboratorio-4.1.git
+   cd Laboratorio-4.1
