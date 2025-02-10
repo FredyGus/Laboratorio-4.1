@@ -1,30 +1,29 @@
-# Laboratorio 4.1 - Programación Orientada a Objetos en C++
+# 🏪 Laboratorio 5: Gestión de Inventario en una Tienda
 
-## Descripción
-Este proyecto implementa los conceptos de Programación Orientada a Objetos en C++ utilizando clases para modelar un **Animal**, un **Automóvil** y una **Persona**. Se realizó en el entorno de desarrollo **Visual Studio Community** y se gestiona con **GitHub**.
+## 📌 Descripción
+Este proyecto es una aplicación en **C++** para gestionar un inventario de productos en una tienda. Se utilizan conceptos de **Programación Orientada a Objetos (POO)**, **funciones**, **ciclos**, y **estructuras de control**. El código se desarrolló en **Visual Studio Community** y se gestiona mediante **GitHub**.
 
-## Tecnologías utilizadas
-- Lenguaje: **C++**
-- Entorno de desarrollo: **Visual Studio Community**
-- Control de versiones: **Git y GitHub**
+## 🎯 Objetivo
+- Implementar un sistema de inventario utilizando **clases y métodos**.
+- Aplicar buenas prácticas de programación estructurada y POO.
+- Practicar para el examen parcial de **Programación I**.
 
-## Clases implementadas
-### 🔹 Clase `Animal`
-Clase base con atributos protegidos y un método virtual para hacer sonidos.
+## ⚙️ Funcionalidades
+✅ Agregar productos (nombre, código, precio, cantidad en stock).  
+✅ Mostrar los productos disponibles.  
+✅ Buscar un producto por su código.  
+✅ Actualizar la cantidad en stock después de una venta.  
+✅ Calcular el valor total del inventario.  
 
-### 🔹 Clase `Perro` (hereda de `Animal`)
-Clase derivada que sobrescribe el método `hacerSonido()` para emitir un **"Guau!"**.
+## 🛠️ Tecnologías utilizadas
+- **Lenguaje**: C++
+- **Entorno de desarrollo**: Visual Studio Community
+- **Control de versiones**: Git & GitHub
 
-### 🔹 Clase `Automovil`
-Contiene atributos de marca y velocidad, y un método para acelerar el automóvil.
-
-### 🔹 Clase `Persona`
-Modela una persona con atributos de nombre y edad, e incluye un método `saludar()`.
-
-## Instalación y ejecución
+## 🚀 Instalación y ejecución
 Para ejecutar este proyecto en **Visual Studio Community**:
 
 1. **Clonar el repositorio**:
    ```bash
    git clone https://github.com/FredyGus/Laboratorio-4.1.git
-   cd Laboratorio-4.1
+   cd nombre-del-repositorio
